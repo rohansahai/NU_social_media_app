@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Whats Groovy</title>
+
+  <!-- link to the stylesheet -->
+  <link rel="stylesheet" href="default.css">
+  <script src="jquery.js" type="text/javascript"></script>
+  <script src="groovy.js" type="text/javascript"></script>
+  
+  <link rel="shortcut icon" href="groovy.ico"/>
+</head>
+<body>
+   
+
+<!-- HTML5 article tag for content -->
+<div class="content">
+   
+   <div class="sidebar" id="sidebar">
+   		<h2>Welcome to Whats Groovy!<h2/>
+   		<br>
+   		<h3 id="welcome">Sign in to join your friends and get your groove on!</h3>
+   		<img src="Fbook.jpg" id="login" onclick="backToSidebar()"/>
+   		<img src="Twitter.jpg" id="login" onclick="backToSidebar()"/>
+   </div>
+   
+   <!-- page header -->
+   <header>
+      	Northwestern University
+   </header>
+   
+   <!-- Sidebar Button 
+   
+   	<nav>
+   		<ul>
+   			<li id="goose2" class="nav_sidebar" onclick="change()"> -> </li>
+   		</ul>
+   	</nav>
+   	-->
+   	
+   <img id="fbookButton" onclick="change()" src="images/fbookButton.png"/>
+	
+   <!-- Whats Groovy Logo -->
+   <img src="LogoMobile.jpg" id="LogoMobile"/>
+
+   <!-- H1 means 1st level heading -->
+   <div class="upvote" onclick="upvote()"></div>
+   <div class="downvote" onclick="downvote()"></div>
+   
+   <div class="mainFeed" id="mainFeed">
+   		<div class="event" id="womensLax">
+   			<img src="images/WomensLax.jpg"/>
+   		</div>
+   		
+   		<div class="event">
+   			<img src="images/CarlSagan.jpg" onclick="fullEvent()"/>
+   		</div>
+   		
+   		<div class="event">
+   			<img src="images/AOSpeaker.jpg">
+   		</div>
+   		
+   		<div class="event">
+   			<img src="images/AOBlowOut.jpg">
+   		</div>
+   		
+   		<div class="event">
+   			<img src="images/GoogleCar.jpg">
+   		</div>
+   		
+   		<div class="event">
+   			<img src="images/BattleotBands.jpg">
+   		</div>
+   		
+   		<div class="event">
+   			<img src="images/GEenergy.jpg">
+   		</div>
+   		
+   		<div class="event">
+   			<img src="images/RobotComp.jpg">
+   		</div>
+   		
+   </div>
+
+</div>
+
+<div id="dialog-overlay"></div>
+			<div id="dialog-box">
+    		<div class="dialog-content">
+        	<div id="dialog-message"></div>
+        	<a href="#" class="button">Close</a>
+    		</div>
+			</div>
+
+
+</body>
+</html>

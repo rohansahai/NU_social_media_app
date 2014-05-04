@@ -1,0 +1,116 @@
+/*
+ * This file defines all of our style rules
+ */
+
+
+body {
+   
+   /* the iphone outline */
+   background: url('iphone.png') no-repeat 80px 20px;
+   font-size:14px;
+   font-family: "Helvetica Neue", sans-serif;
+  
+   
+}
+
+
+h1{
+   font-size: 25px;
+   color:green;
+   margin:5px;
+   text-align: center;
+   
+}
+
+label {
+   display:block;
+   text-align: center;
+   
+}
+
+
+#Add_Photo{
+   
+   background-color: #606;
+   width:80px;
+   height:80px;
+   position: relative;
+   left: 8%;
+   margin-bottom: 10px;
+   float: left;
+}
+
+
+
+
+input {
+width: 100px;
+height: 15px;
+font-size: 10px;
+margin-bottom: 12px;
+position:relative;
+left: 35%;
+text-align: center;
+}
+
+#end{
+   margin-bottom: 25px;
+}
+
+#desc{
+   width: 300px;
+   height:90px;
+   left:2%;
+   font-size:15px;
+   text-align: left;
+   
+}
+/* some default rules for the major page elements */
+.content {
+   
+   /* light gray background */
+   background-color: #eee;
+   
+   /* so that we fit inside the iphone background */
+   position: absolute;
+   top: 167px;
+   left: 107px;
+   width: 320px;
+   height: 468px;
+   
+ 
+}
+
+
+p { margin: 2px;
+
+   font-size:12px;
+
+   text-align: center;
+   
+   margin-bottom: 10px;
+
+}
+
+#submitButton:hover{
+	cursor: pointer;
+	text-shadow: 1px 1px 1px #555;
+}
+
+#submitButton {
+	background-color: #c8b1e5;
+	
+	position: relative;
+	font-size: 16px;
+	left: 37.5%;
+	text-align: center;
+	/*padding: 2px;*/
+	
+	margin: 0px;
+    padding: 9px;
+ 	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+  	border: 5px solid #8A2BE2;
+}

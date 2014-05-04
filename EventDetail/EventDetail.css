@@ -1,0 +1,43 @@
+body {
+   
+   /* the iphone outline */
+   background: url('iphone.png') no-repeat 80px 20px;
+}
+
+
+
+/* some default rules for the major page elements */
+.content {
+   
+   /* light gray background */
+   background-color: #eee;
+   
+   /* so that we fit inside the iphone background */
+   position: absolute;
+   top: 167px;
+   left: 107px;
+   width: 320px;
+   height: 468px;
+   
+   /* use a sans-serif font */
+   font-family: "Helvetica Neue", sans-serif;
+   font-size: 14px;
+	font-weight: 300;
+   text-align: center;
+   color: #222;  /* almost black */
+}
+
+header {
+   background-color: #606;  /* dark purple */
+   font-size: 11px;
+   color: white;
+   line-height: 26px;
+   z-index:1;
+}
+
+.fullEvent {
+
+	height: 442px;
+	overflow: scroll;
+
+}
